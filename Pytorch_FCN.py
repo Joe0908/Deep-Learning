@@ -28,7 +28,7 @@ class NN(nn.Module):
         return x 
   
 model = NN()
-#???????//
+
 
 Cross_Entropy_Loss = nn.CrossEntropyLoss()
 optimiser = optim.Adam(model.parameters(),lr = 0.01)
