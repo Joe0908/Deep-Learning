@@ -13,7 +13,7 @@ class NN_upgraded(object):
       self.num_layers = len(sizes)
 
       self.biases = []
-      # Initialize biases (for layers 1 to L-1)
+      # Initialise biases (for layers 1 to L-1)
       for y in sizes[1:]:
          self.biases.append(np.random.randn(y,1))
 
